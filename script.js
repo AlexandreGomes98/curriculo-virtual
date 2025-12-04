@@ -16,4 +16,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 function toggleMenu() {
   document.getElementById("navMenu").classList.toggle("open");
 }
+{
+  const nav = document.getElementById("navMenu");
+  nav.classList.toggle("open");
+}
 });
