@@ -12,4 +12,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   const subject = encodeURIComponent('Contato do Site');
   // abre o cliente de email do usuário (se quiser backend depois eu configuro)
   window.location.href = `mailto:alexandregomes08@gmail.com?subject=${subject}&body=Email:%20${email}%0A%0AMensagem:%0A${message}`;
+
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("open");
+}
 });
